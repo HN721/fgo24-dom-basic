@@ -7,7 +7,7 @@ Application convertSuhu from Celcius to Farenheit,Reamur,Kelvin Using DOM Javasc
 1. Clone this repository:
 
    ```bash
-   git clone "https://github.com/HN721/fgo24-css-slicing.git"
+   git clone "https://github.com/HN721/fgo24-dom-basic.git"
    ```
 
 2. Install dependencies:
