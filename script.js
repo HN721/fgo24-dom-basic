@@ -11,17 +11,17 @@ let result = null;
 function convertSuhu(C, num1, num2, num3) {
   if (num1 === "F") {
     result = C * 1.8 + 32;
-    Farenheit = `Hasil Suhu yang anda konversi dari C ke F adalah ${result}`;
+    Farenheit = `Hasil Suhu yang anda konversi dari C ke F adalah ${result} F`;
   }
 
   if (num2 === "K") {
     result = C + 273.15;
-    Kelvin = `Hasil Suhu yang anda konversi dari C ke K adalah ${result}`;
+    Kelvin = `Hasil Suhu yang anda konversi dari C ke K adalah ${result} K`;
   }
 
   if (num3 === "R") {
     result = (C * 4) / 5;
-    Reamur = `Hasil Suhu yang anda konversi dari C ke R adalah ${result}`;
+    Reamur = `Hasil Suhu yang anda konversi dari C ke R adalah ${result} R`;
   }
 
   F.textContent = Farenheit;
